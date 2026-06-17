@@ -1,4 +1,4 @@
-# Raster Data Reading Utilities
+# Data Reading Utilities
 
 A lightweight Python toolkit for reading geospatial raster data products, including HDF and HLS GeoTIFF files. The repository provides convenient functions for loading image data and extracting associated spatial metadata.
 
