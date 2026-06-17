@@ -76,7 +76,7 @@ print(x_size, y_size)
 ### Access a Subdataset
 
 ```python
-ndvi = data["burn_date"]
+data = data["burn_date"]
 ```
 
 ---
