@@ -10,6 +10,7 @@ A lightweight Python toolkit for reading geospatial raster data products, includ
 .
 ├── read_hdf.py
 ├── read_hls_tif.py
+├── slides.py
 └── README.md
 ```
 
@@ -19,6 +20,7 @@ A lightweight Python toolkit for reading geospatial raster data products, includ
 | ----------------- | ------------------------------------------------------------------------------- |
 | `read_hdf.py`     | Read all subdatasets from an HDF file and return the data and spatial metadata. |
 | `read_hls_tif.py` | Read HLS GeoTIFF files and extract raster data and georeferencing information.  |
+| `slides.py`       | create powerpoint slides for given jpegs.                                       |
 | `README.md`       | Repository documentation.                                                       |
 
 ---
@@ -52,13 +54,9 @@ Install the required Python packages:
 ```bash
 pip install numpy
 pip install gdal
+pip install python-pptx
 ```
 
-or
-
-```bash
-pip install numpy GDAL
-```
 
 ---
 
@@ -78,7 +76,7 @@ print(x_size, y_size)
 ### Access a Subdataset
 
 ```python
-ndvi = data["NDVI"]
+ndvi = data["burn_date"]
 ```
 
 ---
